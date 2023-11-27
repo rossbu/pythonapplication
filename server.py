@@ -7,7 +7,7 @@ def main_page(request):
     name = os.environ.get('NAME')
     if name == None or len(name) == 0:
         name = "Python App Runner"
-    message = "Hello, " + name + "!\n"
+    message = "Hello me, " + name + "!\n"
     return Response(message)
 
 if __name__ == '__main__':
