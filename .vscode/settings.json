@@ -1,0 +1,4 @@
+{
+    "window.title": "${activeEditorLong}${separator}${rootName}${separator}[Branch: main]",
+    "editor.inlineSuggest.showToolbar": "onHover"
+}
